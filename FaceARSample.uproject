@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.20",
+	"EngineAssociation": "4.25",
 	"Category": "Samples",
 	"Description": "",
 	"Modules": [
@@ -13,8 +13,22 @@
 	"Plugins": [
 		{
 			"Name": "AppleARKitFaceSupport",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS"
+			]
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
+		},
+		{
+			"Name": "TurboCompiler",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"IOS"
 	],
 	"EpicSampleNameHash": "3812748230"
 }
